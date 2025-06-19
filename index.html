@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="john doe, portfolio, john, full stack dev, personal portfolio lifecodes, portfolio design, portfolio website, personal portfolio" />
+    <meta name="description" content="Welcome to John's Portfolio. Full-Stack Web Developer and Mobile App Developer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+    <title>Portfolio | John Doe</title>
+</head>
+<body>
+
+<!-- navbar starts -->
+<header>
+        <a href="/" class="logo"><i class="fab fa-node-js"></i> John</a>
+
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+</header>
+<!-- navbar ends -->
+
+
+<!-- hero section starts -->
+<section class="home" id="home">
+
+    <video autoplay muted loop playsinline class="bg-video">
+    <source src="./assets/Background_White.mp4" type="video/mp4" />
+    Your browser does not support HTML5 video.
+  </video>
+    <div id="particles-js"></div>
+
+    <div class="content">
+    <h2>Hi There,<br/> I'm John <span>Doe</span></h2>
+    <p>i am into <span class="typing-text"></span></p>
+    <a href="#about" class="btn"><span>About Me</span>
+      <i class="fas fa-arrow-circle-down"></i>
+    </a>
+    <div class="socials">
+        <ul class="social-icons">
+          <li><a class="linkedin" aria-label="LinkedIn" href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+          <li><a class="github" aria-label="GitHub" href="#" target="_blank"><i class="fab fa-github"></i></a></li>
+          <li><a class="twitter" aria-label="Twitter" href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          <li><a class="telegram" aria-label="Telegram" href="#" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+          <li><a class="instagram" aria-label="Instagram" href="#"><i class="fab fa-instagram" target="_blank"></i></a></li>
+          <li><a class="dev" aria-label="Dev" href="#" target="_blank"><i class="fab fa-dev"></i></a></li>
+        </ul>
+      </div>
+    </div>
+<div class="image">
+    <img draggable="false" class="tilt" src="./assets/profile-img.jpg" alt="">
+</div>
+</section>
+<!-- hero section ends -->
+
+
+<!-- about section starts -->
+<section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+    
+    <div class="row">
+
+    <div class="image">
+        <img draggable="false" class="tilt" src="./assets/profile-img.jpg" alt="">
+    </div>
+    <div class="content">
+        <h3>I'm John</h3>
+        <span class="tag">Full Stack Developer</span>
+        
+        <p>I am a Full-Stack developer based in San Francisco, USA. 
+          I am an Computer Science graduate from Stanford University.
+          I am very passionate about improving my coding skills & developing applications & websites.
+          I build WebApps and Websites using MERN Stack.
+          Working for myself to improve my skills.
+          Love to build Full-Stack clones. </p>
+        
+        <div class="box-container">
+            <div class="box">
+              <p><span> email : </span> johndoe@example.com</p>
+              <p><span> place : </span> San Francisco, USA - 94102</p>
+            </div>
+        </div>
+        
+        <div class="resumebtn">
+            <a href="#" target="_blank" class="btn"><span>Resume</span>
+                <i class="fas fa-chevron-right"></i>
+            </a>
+        </div>
+
+    </div>
+    </div>
+</section>
+<!-- about section ends -->
+
+<!-- skills section starts -->
+<section class="skills" id="skills">
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
+
+    <div class="container">
+        <div class="row" id="skillsContainer">
+            <!-- Skill items will be dynamically inserted here -->
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="HTML5">
+                    <span>HTML5</span>
+                </div>
+            </div>
+            
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS3">
+                    <span>CSS3</span>
+                </div>
+            </div>
+            
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt="JavaScript">
+                    <span>JavaScript</span>
+                </div>
+            </div>
+            
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/react-native.png" alt="React">
+                    <span>React</span>
+                </div>
+            </div>
+            
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js">
+                    <span>Node.js</span>
+                </div>
+            </div>
+            
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/mongodb.png" alt="MongoDB">
+                    <span>MongoDB</span>
+                </div>
+            </div>
+            
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/git.png" alt="Git">
+                    <span>Git</span>
+                </div>
+            </div>
+            
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/python--v1.png" alt="Python">
+                    <span>Python</span>
+                </div>
+            </div>
+            
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/bootstrap.png" alt="Bootstrap">
+                    <span>Bootstrap</span>
+                </div>
+            </div>
+            
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/firebase.png" alt="Firebase">
+                    <span>Firebase</span>
+                </div>
+            </div>
+            
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/docker.png" alt="Docker">
+                    <span>Docker</span>
+                </div>
+            </div>
+            
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt="AWS">
+                    <span>AWS</span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/fluency/48/000000/node-js.png" alt="Express.js">
+                    <span>Express.js</span>
+                </div>
+            </div>
+            
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/typescript.png" alt="TypeScript">
+                    <span>TypeScript</span>
+                </div>
+            </div>
+            
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/redux.png" alt="Redux">
+                    <span>Redux</span>
+                </div>
+            </div>
+            
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/postgreesql.png" alt="PostgreSQL">
+                    <span>PostgreSQL</span>
+                </div>
+            </div>
+            
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/tailwindcss.png" alt="Tailwind CSS">
+                    <span>Tailwind CSS</span>
+                </div>
+            </div>
+            
+            <div class="bar">
+                <div class="info">
+                    <img src="https://img.icons8.com/color/48/000000/graphql.png" alt="GraphQL">
+                    <span>GraphQL</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- skills section ends -->
+
+
+<!-- education section starts -->
+<section class="education" id="education">
+  <h1 class="heading"><i class="fas fa-graduation-cap"></i> My <span>Education</span></h1>
+  
+  <p class="qoute">Education is not the learning of facts, but the training of the mind to think.</p>
+
+  <div class="box-container">
+    <!-- University Education -->
+    <div class="box">
+      <div class="image">
+        <img draggable="false" src="https://images.unsplash.com/photo-1541178735493-479c1a27ed24?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="University Campus">
+      </div>
+      <div class="content">
+        <h3>Bachelor of Science in Computer Science</h3>
+        <p>Metropolitan State University</p>
+        <h4>2018-2022 | Completed</h4>
+      </div>
+    </div>
+
+    <!-- High School Education -->
+    <div class="box">
+      <div class="image">
+        <img draggable="false" src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="High School Building">
+      </div>
+      <div class="content">
+        <h3>High School Diploma</h3>
+        <p>Central High School</p>
+        <h4>2014-2018 | Completed</h4>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- education section ends -->
+
+
+<!-- work project section starts -->
+<section class="work" id="work">
+
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+
+<div class="box-container">
+  <div class="box tilt mern">
+      <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="E-commerce Project" />
+      <div class="content">
+        <div class="tag">
+        <h3>E-Commerce Platform</h3>
+        </div>
+        <div class="desc">
+          <p>Full-featured online store with product listings, cart functionality, and payment integration using MERN stack.</p>
+          <div class="btns">
+            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box tilt lamp">
+      <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Hospital Management System" />
+      <div class="content">
+        <div class="tag">
+        <h3>Hospital Management System</h3>
+        </div>
+        <div class="desc">
+          <p>Patient records management system with appointment scheduling built with PHP, MySQL, and Bootstrap.</p>
+          <div class="btns">
+            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box tilt basicweb">
+      <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Portfolio Website" />
+      <div class="content">
+        <div class="tag">
+        <h3>Portfolio Website</h3>
+        </div>
+        <div class="desc">
+          <p>Responsive personal portfolio website built with HTML, CSS, and JavaScript.</p>
+          <div class="btns">
+            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box tilt android">
+      <img src="https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Weather App" />
+      <div class="content">
+        <div class="tag">
+        <h3>Weather Forecast App</h3>
+        </div>
+        <div class="desc">
+          <p>Android application that displays current weather and forecasts using OpenWeatherMap API.</p>
+          <div class="btns">
+            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box tilt mern">
+      <img src="https://images.unsplash.com/photo-1526947425960-945c6e72858f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Task Manager" />
+      <div class="content">
+        <div class="tag">
+        <h3>Task Management App</h3>
+        </div>
+        <div class="desc">
+          <p>Collaborative task management application with real-time updates using MERN stack and Socket.io.</p>
+          <div class="btns">
+            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box tilt lamp">
+      <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Blog System" />
+      <div class="content">
+        <div class="tag">
+        <h3>Blog Management System</h3>
+        </div>
+        <div class="desc">
+          <p>Content management system for bloggers with rich text editing and user authentication.</p>
+          <div class="btns">
+            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="#" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+</section>
+<!-- work project section ends -->
+
+<!-- experience section starts -->
+<section class="experience" id="experience">
+
+  <h2 class="heading"><i class="fas fa-briefcase"></i> Experience</h2>
+
+  <div class="timeline">
+
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>Tech Solutions Inc.</h2>
+        </div>
+        <div class="desc">
+            <h3>Senior Full Stack Developer</h3>
+            <p>Jan 2022 - Present</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container right">
+        <div class="content">
+          <div class="tag">
+            <h2>Open Source Foundation</h2>
+          </div>
+          <div class="desc">
+              <h3>Core Contributor | Open Source Program</h3>
+              <p>Aug 2021 - Dec 2021</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container left">
+        <div class="content">
+          <div class="tag">
+            <h2>Code Masters</h2>
+          </div>
+          <div class="desc">
+              <h3>Web Development Mentor</h3>
+              <p>May 2021 - Jul 2021</p>
+          </div>
+        </div>
+      </div>
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>Digital Creations</h2>
+        </div>
+        <div class="desc">
+            <h3>Frontend Developer | Internship</h3>
+            <p>Mar 2021 - May 2021</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>WebWorks</h2>
+        </div>
+        <div class="desc">
+            <h3>UI/UX Designer | Internship</h3>
+            <p>Jan 2021 - Mar 2021</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>Tech Start</h2>
+        </div>
+        <div class="desc">
+            <h3>Junior Developer | Internship</h3>
+            <p>Nov 2020 - Jan 2021</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+<!-- experience section ends -->
+
+<!-- contact section starts -->
+<section class="contact" id="contact">
+  
+  <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+
+  <div class="container">
+    <div class="content">
+      <div class="image-box">
+        <img draggable="false" src="./assets/contact1.png" alt="">
+      </div>
+    <form id="contact-form">
+      
+      <div class="form-group">
+        <div class="field">
+          <input type="text" name="name" placeholder="Name" required>
+          <i class='fas fa-user'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="email" placeholder="Email" required>
+          <i class='fas fa-envelope'></i>
+        </div>
+        <div class="field">
+          <input type="text" name="phone" placeholder="Phone">
+          <i class='fas fa-phone-alt'></i>
+        </div>
+        <div class="message">
+        <textarea placeholder="Message" name="message" required></textarea>
+        <i class="fas fa-comment-dots"></i>
+        </div>
+        </div>
+      <div class="button-area">
+        <button type="submit">
+          Submit <i class="fa fa-paper-plane"></i></button>
+      </div>
+    </form>
+  </div>
+  </div>
+</section>
+<!-- contact section ends -->
+
+
+<!-- footer section starts -->
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>John's Portfolio</h3>
+          <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> Keep Rising 🚀. Connect with me over live chat!</p>
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+          <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+          <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+          <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+          <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+          <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          <p> <i class="fas fa-phone"></i>+1 XXX-XXX-XXXX</p>
+          <p> <i class="fas fa-envelope"></i>johndoe@example.com</p>
+          <p> <i class="fas fa-map-marked-alt"></i>San Francisco, USA-94102</p>
+          <div class="share">
+
+              <a href="#" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+              <a href="#" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+              <a href="mailto:johndoe@example.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+              <a href="#" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a>
+              <a href="#" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a>
+          </div>
+      </div>
+  </div>
+
+  <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="#"> John Doe</a></h1>
+
+</section>
+<!-- footer section ends -->
+
+
+<!-- scroll top btn -->
+<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+<!-- scroll back to top -->
+
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- typed.js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- vanilla tilt.js links -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- scroll reveal anim -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+<script src="./script.js"></script>
+
+</body>
+</html>
