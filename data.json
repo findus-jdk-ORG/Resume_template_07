@@ -1,0 +1,138 @@
+{
+  "personalInfo": {
+    "name": "John Doe",
+    "title": "Full Stack Developer",
+    "location": "San Francisco, USA - 94102",
+    "email": "johndoe@example.com",
+    "phone": "+1 XXX-XXX-XXXX",
+    "about": "I am a Full-Stack developer based in San Francisco, USA. I am an Computer Science graduate from Stanford University. I am very passionate about improving my coding skills & developing applications & websites. I build WebApps and Websites using MERN Stack. Working for myself to improve my skills. Love to build Full-Stack clones.",
+    "profileImage": "./assets/profile-img.jpg",
+    "resumeLink": "#"
+  },
+  "socialLinks": {
+    "linkedin": "#",
+    "github": "#",
+    "twitter": "#",
+    "telegram": "#",
+    "instagram": "#",
+    "dev": "#"
+  },
+  "skills": [
+    {"name": "HTML5", "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"},
+    {"name": "CSS3", "icon": "https://img.icons8.com/color/48/000000/css3.png"},
+    {"name": "JavaScript", "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"},
+    {"name": "React", "icon": "https://img.icons8.com/color/48/000000/react-native.png"},
+    {"name": "Node.js", "icon": "https://img.icons8.com/color/48/000000/nodejs.png"},
+    {"name": "MongoDB", "icon": "https://img.icons8.com/color/48/000000/mongodb.png"},
+    {"name": "Git", "icon": "https://img.icons8.com/color/48/000000/git.png"},
+    {"name": "Python", "icon": "https://img.icons8.com/color/48/000000/python--v1.png"},
+    {"name": "Bootstrap", "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"},
+    {"name": "Firebase", "icon": "https://img.icons8.com/color/48/000000/firebase.png"},
+    {"name": "Docker", "icon": "https://img.icons8.com/color/48/000000/docker.png"},
+    {"name": "AWS", "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"},
+    {"name": "Express.js", "icon": "https://img.icons8.com/fluency/48/000000/node-js.png"},
+    {"name": "TypeScript", "icon": "https://img.icons8.com/color/48/000000/typescript.png"},
+    {"name": "Redux", "icon": "https://img.icons8.com/color/48/000000/redux.png"},
+    {"name": "PostgreSQL", "icon": "https://img.icons8.com/color/48/000000/postgreesql.png"},
+    {"name": "Tailwind CSS", "icon": "https://img.icons8.com/color/48/000000/tailwindcss.png"},
+    {"name": "GraphQL", "icon": "https://img.icons8.com/color/48/000000/graphql.png"}
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "Metropolitan State University",
+      "period": "2018-2022",
+      "status": "Completed",
+      "image": "https://images.unsplash.com/photo-1541178735493-479c1a27ed24?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "degree": "High School Diploma",
+      "institution": "Central High School",
+      "period": "2014-2018",
+      "status": "Completed",
+      "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    }
+  ],
+  "projects": [
+    {
+      "title": "E-Commerce Platform",
+      "description": "Full-featured online store with product listings, cart functionality, and payment integration using MERN stack.",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "tech": "mern",
+      "viewLink": "#",
+      "codeLink": "#"
+    },
+    {
+      "title": "Hospital Management System",
+      "description": "Patient records management system with appointment scheduling built with PHP, MySQL, and Bootstrap.",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "tech": "lamp",
+      "viewLink": "#",
+      "codeLink": "#"
+    },
+    {
+      "title": "Portfolio Website",
+      "description": "Responsive personal portfolio website built with HTML, CSS, and JavaScript.",
+      "image": "https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "tech": "basicweb",
+      "viewLink": "#",
+      "codeLink": "#"
+    },
+    {
+      "title": "Weather Forecast App",
+      "description": "Android application that displays current weather and forecasts using OpenWeatherMap API.",
+      "image": "https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "tech": "android",
+      "viewLink": "#",
+      "codeLink": "#"
+    },
+    {
+      "title": "Task Management App",
+      "description": "Collaborative task management application with real-time updates using MERN stack and Socket.io.",
+      "image": "https://images.unsplash.com/photo-1526947425960-945c6e72858f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "tech": "mern",
+      "viewLink": "#",
+      "codeLink": "#"
+    },
+    {
+      "title": "Blog Management System",
+      "description": "Content management system for bloggers with rich text editing and user authentication.",
+      "image": "https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "tech": "lamp",
+      "viewLink": "#",
+      "codeLink": "#"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Tech Solutions Inc.",
+      "position": "Senior Full Stack Developer",
+      "period": "Jan 2022 - Present"
+    },
+    {
+      "company": "Open Source Foundation",
+      "position": "Core Contributor | Open Source Program",
+      "period": "Aug 2021 - Dec 2021"
+    },
+    {
+      "company": "Code Masters",
+      "position": "Web Development Mentor",
+      "period": "May 2021 - Jul 2021"
+    },
+    {
+      "company": "Digital Creations",
+      "position": "Frontend Developer | Internship",
+      "period": "Mar 2021 - May 2021"
+    },
+    {
+      "company": "WebWorks",
+      "position": "UI/UX Designer | Internship",
+      "period": "Jan 2021 - Mar 2021"
+    },
+    {
+      "company": "Tech Start",
+      "position": "Junior Developer | Internship",
+      "period": "Nov 2020 - Jan 2021"
+    }
+  ]
+}
